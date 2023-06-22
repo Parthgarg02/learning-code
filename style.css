@@ -43,6 +43,7 @@
     padding-left: 50px;
     padding-top: 10px;
     margin-bottom: 8px;
+    max-width: 100%;
 }
 
 .padding-22-18 {
@@ -52,4 +53,38 @@
 .h78-w135 {
     height: 78px;
     width: 135px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    
+}
+
+td, th {
+    border: 1.5px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #ddddd6;
+}
+
+caption {
+    font-family: arial, sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.width200 {
+    width: 200px;
+}
+
+.width10 {
+    width: 10%;
+}
+
+.width25 {
+    width: 25%;
 }
